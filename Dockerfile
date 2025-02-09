@@ -5,7 +5,7 @@ EXPOSE 8080
 COPY sources.list /etc/apt
 
 COPY oc_3_6_1/oc /usr/bin/oc
-COPY oc/kubectl /usr/bin/kubectl
+COPY kubectl /usr/bin/kubectl
 
 RUN apt-get update
 RUN apt-get install -y curl
