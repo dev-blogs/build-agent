@@ -1,3 +1,5 @@
+# kubectl folder missing
+
 # Build image
 ./build.sh
 
